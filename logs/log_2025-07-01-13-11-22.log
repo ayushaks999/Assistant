@@ -1,0 +1,60 @@
+[2025-07-01 13:11:22,005] logger - INFO - Initializing SpeechModule.
+[2025-07-01 13:11:22,064] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Ayush\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[2025-07-01 13:11:22,064] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Ayush\AppData\Local\Programs\Python\Python312\Lib\site-packages\comtypes\gen'
+[2025-07-01 13:11:22,203] logger - INFO - ReminderModule initialized.
+[2025-07-01 13:11:22,206] logger - INFO - Initializing SpeechModule.
+[2025-07-01 13:11:22,209] root - INFO - Starting Flask app on http://127.0.0.1:5006
+[2025-07-01 13:11:22,239] werkzeug - WARNING -  * Debugger is active!
+[2025-07-01 13:11:22,247] werkzeug - INFO -  * Debugger PIN: 665-030-210
+[2025-07-01 13:11:26,643] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:11:26] "GET / HTTP/1.1" 200 -
+[2025-07-01 13:11:26,784] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:11:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-07-01 13:11:30,646] logger - INFO - Initializing QnAModule.
+[2025-07-01 13:11:33,064] logger - INFO - Groq LLM initialized for QnA module.
+[2025-07-01 13:11:33,065] logger - INFO - Custom prompt initialized for QnA module.
+[2025-07-01 13:11:33,088] logger - INFO - Conversation memory initialized for QnA module.
+[2025-07-01 13:11:33,090] logger - INFO - LLMChain created with memory for QnA module.
+[2025-07-01 13:11:35,516] logger - INFO - MusicModule initialized.
+[2025-07-01 13:11:37,737] logger - INFO - WeatherModule initialized.
+[2025-07-01 13:11:37,737] logger - INFO - Groq API key stored and modules initialized.
+[2025-07-01 13:11:37,738] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:11:37] "[32mPOST / HTTP/1.1[0m" 302 -
+[2025-07-01 13:11:37,837] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:11:37] "GET /assistant HTTP/1.1" 200 -
+[2025-07-01 13:11:37,866] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:11:37] "POST /start HTTP/1.1" 200 -
+[2025-07-01 13:11:48,219] logger - INFO - Detecting intent for input: play Arijit Singh music
+[2025-07-01 13:11:50,231] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-01 13:11:50,263] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:11:50] "POST /process_input HTTP/1.1" 200 -
+[2025-07-01 13:11:54,969] logger - INFO - Handling music request: interrupt
+[2025-07-01 13:11:54,969] logger - INFO - No music is currently playing to stop.
+[2025-07-01 13:11:54,969] logger - INFO - Music playback interrupted.
+[2025-07-01 13:11:54,970] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:11:54] "POST /interrupt HTTP/1.1" 200 -
+[2025-07-01 13:11:57,201] logger - INFO - No music is currently playing to stop.
+[2025-07-01 13:11:57,210] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:11:57] "POST /exit HTTP/1.1" 200 -
+[2025-07-01 13:12:12,566] logger - INFO - Detecting intent for input: what's the weather today in Durgapur
+[2025-07-01 13:12:15,505] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-01 13:12:15,508] logger - INFO - Handling weather query: what's the weather today in Durgapur
+[2025-07-01 13:12:16,730] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-01 13:12:16,732] logger - INFO - Extracted location: Durgapur
+[2025-07-01 13:12:19,601] logger - INFO - Weather fetched successfully for Durgapur: The current weather in Durgapur is Overcast with a temperature of 30.0°C (moderate) and a windspeed of 10.6 km/h.
+[2025-07-01 13:12:19,625] logger - INFO - Weather response: The current weather in Durgapur is Overcast with a temperature of 30.0°C (moderate) and a windspeed of 10.6 km/h.
+[2025-07-01 13:12:19,626] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:12:19] "POST /process_input HTTP/1.1" 200 -
+[2025-07-01 13:12:32,798] logger - INFO - Handling music request: interrupt
+[2025-07-01 13:12:32,798] logger - INFO - No music is currently playing to stop.
+[2025-07-01 13:12:32,798] logger - INFO - Music playback interrupted.
+[2025-07-01 13:12:32,799] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:12:32] "POST /interrupt HTTP/1.1" 200 -
+[2025-07-01 13:12:34,330] logger - INFO - No music is currently playing to stop.
+[2025-07-01 13:12:34,330] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:12:34] "POST /exit HTTP/1.1" 200 -
+[2025-07-01 13:12:41,548] logger - INFO - Detecting intent for input: what's the capital of United
+[2025-07-01 13:12:42,636] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-01 13:12:42,638] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:12:42] "POST /process_input HTTP/1.1" 200 -
+[2025-07-01 13:12:49,511] logger - INFO - Detecting intent for input: what's the capital of United States of America
+[2025-07-01 13:12:50,930] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-01 13:12:50,931] logger - INFO - Received user query: what's the capital of United States of America
+[2025-07-01 13:12:51,854] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-01 13:12:51,879] logger - INFO - Response generated: I'd be happy to help you with that!
+
+The capital of the United States of America is **Washington D.C.** (short for District of Columbia). It's a special federal district that serves as the country's capital and seat of government.
+
+Would you like to know more about Washington D.C. or is there something else I can help you with?
+[2025-07-01 13:12:51,880] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:12:51] "POST /process_input HTTP/1.1" 200 -
+[2025-07-01 13:16:43,959] werkzeug - INFO -  * Detected change in 'C:\\Users\\Ayush\\Desktop\\CV\\Voice_Assistant\\main.py', reloading
+[2025-07-01 13:16:43,960] werkzeug - INFO -  * Detected change in 'C:\\Users\\Ayush\\Desktop\\CV\\Voice_Assistant\\main.py', reloading
+[2025-07-01 13:16:43,987] werkzeug - INFO -  * Detected change in 'C:\\Users\\Ayush\\Desktop\\CV\\Voice_Assistant\\main.py', reloading
