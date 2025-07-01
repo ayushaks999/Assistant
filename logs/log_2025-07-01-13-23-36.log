@@ -1,0 +1,10 @@
+[2025-07-01 13:23:36,812] logger - INFO - Initializing SpeechModule.
+[2025-07-01 13:23:36,862] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Ayush\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[2025-07-01 13:23:36,863] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Ayush\AppData\Local\Programs\Python\Python312\Lib\site-packages\comtypes\gen'
+[2025-07-01 13:23:37,024] logger - INFO - ReminderModule initialized.
+[2025-07-01 13:23:37,024] logger - INFO - Initializing SpeechModule.
+[2025-07-01 13:23:37,026] root - INFO - Starting Flask app on http://0.0.0.0:5006
+[2025-07-01 13:23:37,049] werkzeug - WARNING -  * Debugger is active!
+[2025-07-01 13:23:37,054] werkzeug - INFO -  * Debugger PIN: 665-030-210
+[2025-07-01 13:23:39,418] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:23:39] "GET / HTTP/1.1" 200 -
+[2025-07-01 13:23:39,506] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2025 13:23:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
