@@ -1,11 +1,11 @@
 Flask
-gunicorn
-pyttsx3
-py-espeak-ng
 python-vlc
 requests
 comtypes
-langchain_core 
-langchain_community 
-langchain_groq 
+langchain-core
+langchain-community
+langchain-groq
+pyttsx3
 yt-dlp
+gunicorn
+py-espeak-ng
